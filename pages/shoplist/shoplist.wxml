@@ -1,0 +1,15 @@
+<!--pages/shoplist/shoplist.wxml-->
+<!-- 美食列表 -->
+<view class="shop" wx:for="{{list}}" wx:key="index">
+  <image src='http://127.0.0.1:3000/img/niu.png' class="shop-img"></image>
+  <view class="shop-info">
+    <text class="shop-title ell">商品名称:{{item.name}}</text>
+    <text class="shop-tel">电话:{{item.tel}}</text>
+    <text class="shop-address">生产地址:{{item.addr}}</text>
+    <text class="shop-time">上市时间:{{item.mtime}}</text>
+  </view>
+  <view class="shop-star">
+    <view class="start-after">★★★★★</view>
+    <view class="start-before" style="width:{{item.star}}%">★★★★★</view>
+  </view>
+</view>

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/addmessage/addmessage",
+    "pages/message/message",
+    "pages/profile/profile",
+    
+    "pages/product/product",
+    "pages/shoplist/shoplist",
+    "pages/logs/logs",
+    "pages/home/home"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00ff00",
+    "navigationBarTitleText": "望奎瑞天米业",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/assets/tabs/home.png",
+        "selectedIconPath": "pages/assets/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "公司介绍",
+        "iconPath": "pages/assets/tabs/profile.png",
+        "selectedIconPath": "pages/assets/tabs/profile-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息中心",
+        "iconPath": "pages/assets/tabs/message.png",
+        "selectedIconPath": "pages/assets/tabs/message-active.png"
+      }
+    ]
+  }
+}

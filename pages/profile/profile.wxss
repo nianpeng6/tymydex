@@ -1,0 +1,24 @@
+/* pages/profile/profile.wxss */
+/* 头像 */
+.avatar{
+  height:400rpx;
+  display: flex;                  /* 布局方式 */
+  justify-content: center;        /* 子元素居中 */
+  align-items: center;
+}
+.avatar image{
+  
+}
+.divider{
+  height:30rpx;
+  background-color: #f1f1f1;
+}
+/* 通用功能三:项目条 */
+.cell{
+  background-color:#fff;
+  font-size:16px;
+}
+.cell-item{
+  padding:20rpx 30rpx;
+  border-bottom:1rpx solid #ddd;
+}
